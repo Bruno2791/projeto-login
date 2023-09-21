@@ -1,0 +1,97 @@
+@charset "UTF8";
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ width: 100vw;
+ background-color: blueviolet;
+
+}
+
+main{
+width: 100vw
+
+
+
+}
+#login{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 25%;
+    background-color: white;
+    border-radius: 20px; 
+    
+   }
+   #imagem img{
+    width: 250px;
+    height: 250p;
+    border-radius: 20px 20px 0px 0px;
+    
+   }
+   #formulario{
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+#formulario h1{
+ text-align: center;
+ padding: 10px;
+ font-size: 1.5em;
+ font-weight: bolder;
+
+}
+#formulario p{
+text-align: justify;
+padding: 10px;
+font-size: 0.5em;
+}
+
+form{
+    padding: 14px;
+    
+ 
+ 
+
+
+}
+#iemail{
+ width: 220px;
+ height: 40px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+
+
+}
+#isenha{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -7px;
+
+}
+#entrar{
+   width: 220px;
+   height: 40px;
+   margin-top: 3px;
+   border-radius: 10px;
+
+
+}
+
+#esqueci-senha{
+width: 220px;
+   height: 40px;
+   margin-top: 3px;
+   border-radius: 10px;
+ 
+
+
+}
