@@ -1,5 +1,8 @@
 @charset "UTF8";
-
+/* Paleta de cores
+   Verde: #49a09d
+   Lilás: #5f2c82
+ */  
 *{
   margin: 0%;
   padding: 0%;
@@ -7,91 +10,54 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body, html{
+ background-color: #5f2c82;
  width: 100vw;
- background-color: blueviolet;
+ height: 100vh;
+ 
 
 }
 
 main{
-width: 100vw
+position: relative;
+height: 100vh;
+width: 100vw;
+
+
 
 
 
 }
-#login{
-    width: 250px;
-    height: 300px;
-    margin: auto;
-    margin-top: 25%;
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: white;
+    width: 250px;
+    height: 500px;
     border-radius: 20px; 
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
    }
-   #imagem img{
-    width: 250px;
-    height: 250p;
-    border-radius: 20px 20px 0px 0px;
-    
+
+   section#login > div#imagem {
+    background: #5f2c82 url(../imagens/pexels-lawlesscapture-13737660.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
    }
-   #formulario{
-    background-color: white;
-    width: 250px;
-    height: 350px;
-    border-radius: 20px;
+
+   section#login > div#formulario {
     
-}
-#formulario h1{
- text-align: center;
- padding: 10px;
- font-size: 1.5em;
- font-weight: bolder;
+    padding: 10px;
+
+
 
 }
-#formulario p{
-text-align: justify;
-padding: 10px;
-font-size: 0.5em;
-}
 
-form{
-    padding: 14px;
-    
- 
+
+
+
  
 
 
-}
-#iemail{
- width: 220px;
- height: 40px;
- margin-bottom: 10px;
- border-radius: 10px;
-
-
-}
-#isenha{
-    width: 220px;
-    height: 40px;
-    border-radius: 10px;
-    margin-top: -7px;
-
-}
-#entrar{
-   width: 220px;
-   height: 40px;
-   margin-top: 3px;
-   border-radius: 10px;
-
-
-}
-
-#esqueci-senha{
-width: 220px;
-   height: 40px;
-   margin-top: 3px;
-   border-radius: 10px;
- 
-
-
-}
